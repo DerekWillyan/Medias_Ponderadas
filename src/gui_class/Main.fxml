@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="134.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_class.MainController">
+   <children>
+      <TextField fx:id="num1" layoutX="34.0" layoutY="38.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="num2" layoutX="120.0" layoutY="38.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="num3" layoutX="208.0" layoutY="38.0" prefHeight="25.0" prefWidth="63.0" />
+      <Button fx:id="gerar" layoutX="125.0" layoutY="72.0" mnemonicParsing="false" onAction="#onbtnGerar" text="Gerar" />
+      <Text layoutX="33.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero 1" />
+      <Text layoutX="119.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero 2" />
+      <Text layoutX="208.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero 3" />
+      <Label fx:id="resul" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="106.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
